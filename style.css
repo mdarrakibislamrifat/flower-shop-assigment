@@ -201,3 +201,26 @@ flex-shrink: 0;
 .coupon{
     color: rgba(39, 39, 39, 0.60);
 }
+.occasions{
+    margin-left: 300px;
+    width: 1400px;
+    height: 300px;
+    background-color: #e1385ce0;
+    padding: 10px;
+}
+.section-title{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+  .occassion-wrapper{
+    display: flex;
+    margin-left: 320px;
+    list-style: none;
+    gap: 4rem;
+    margin-top: 40px;
+  }
+ .occasions{
+    background-image: url("./Flower Asset/1000_F_503897413_5SLWZOElWg4EsWEsUP1PUx9F50tTlYFB.jpg");
+ }
