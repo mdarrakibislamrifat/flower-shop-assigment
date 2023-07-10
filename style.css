@@ -37,3 +37,84 @@
 .header-image{
     margin-left: 250px;
 }
+.feature-text{
+    text-align: center;
+    margin-top: 100px;
+    width: 480px;
+    margin-left: 800px;
+    margin-bottom: 100px;
+}
+.feature-paragraph{
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+}
+.pink1{
+    width: 310px;
+    height: 428px;
+
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+
+}
+.pink2{
+    width: 310px;
+    height: 428px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 300px 300px 0px 0px;;
+
+}
+.pink3{
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+
+}
+.img1{
+    width: 464px;
+    height: 538px;
+}
+.img2{
+    width: 464px;
+height: 538px;
+}
+.img3{
+    width: 314px;
+    height: 471px;
+flex-shrink: 0;
+
+}
+.pink-text{
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 20px;
+}
+.feature-head{
+    font-size: 40px;
+}
+.off-text{
+    color: red;
+}
+.deal{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+
+}
+.deal-text{
+    margin-top: 170px;
+    width: 594px;
+    flex-direction: column;
+}
+.deal-img{
+    width: 318px;
+    height: 420px;
+    margin-left: 200px;
+}
