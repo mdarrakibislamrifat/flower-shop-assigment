@@ -41,24 +41,34 @@
     text-align: center;
     margin-top: 100px;
     width: 480px;
-    margin-left: 800px;
+    margin-left: 720px;
     margin-bottom: 100px;
 }
 .feature-paragraph{
     flex-direction: column;
     margin-top: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    text-align: center;
+}
+.feature-head{
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .picture{
     display: flex;
+    margin-bottom: 100px;
     justify-content: center;
 }
 .pink1{
     width: 310px;
     height: 428px;
-
-border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
+    padding: 20px 20px 10px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
 
 }
 .pink2{
@@ -66,11 +76,12 @@ background: rgba(167, 33, 98, 0.15);
     height: 428px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     border-radius: 300px 300px 0px 0px;;
-
+    padding: 20px 20px 10px;
 }
 .pink3{
     width: 310px;
     height: 428px;
+    padding: 20px 20px 10px;
     border-radius: 300px 300px 0px 0px;
 background: rgba(71, 125, 17, 0.15);
 
@@ -94,9 +105,7 @@ flex-shrink: 0;
     margin-left: 90px;
     font-size: 20px;
 }
-.feature-head{
-    font-size: 40px;
-}
+
 .off-text{
     color: red;
 }
@@ -109,9 +118,15 @@ flex-shrink: 0;
 
 }
 .deal-text{
-    margin-top: 170px;
+    text-align: center;
+    margin-top: 150px;
     width: 594px;
-    flex-direction: column;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+.deal-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
 }
 .deal-img{
     width: 318px;
@@ -127,9 +142,11 @@ flex-shrink: 0;
     margin-top: 100px;
     text-align: center;
     margin-bottom: 40px;
+    margin-left: 130px;
 }
 .insta-paragraph{
     flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
 }
 .insta-head{
     margin-bottom: 20px;
@@ -155,7 +172,9 @@ flex-shrink: 0;
     width: 700px;
     height: 45px; 
     border-radius: 5px;
-    background: #FFF;  
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;  
 }
 .section-text{
     width: 1922px;
@@ -178,4 +197,7 @@ flex-shrink: 0;
 .reserved{
     margin-top: 10px;
     color: rgba(255, 255, 255, 0.40);
+}
+.coupon{
+    color: rgba(39, 39, 39, 0.60);
 }
