@@ -225,6 +225,5 @@ flex-shrink: 0;
     background-image: url("./Flower Asset/1000_F_503897413_5SLWZOElWg4EsWEsUP1PUx9F50tTlYFB.jpg");
  }
  html{
-    max-height: 100%;
-    
+    height: 100vh;
     }
