@@ -224,3 +224,7 @@ flex-shrink: 0;
  .occasions{
     background-image: url("./Flower Asset/1000_F_503897413_5SLWZOElWg4EsWEsUP1PUx9F50tTlYFB.jpg");
  }
+ html{
+    max-height: 100%;
+    
+    }
