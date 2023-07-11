@@ -202,6 +202,7 @@ flex-shrink: 0;
     color: rgba(39, 39, 39, 0.60);
 }
 .occasions{
+    margin-top: 100px;
     margin-left: 300px;
     width: 1400px;
     height: 300px;
@@ -227,3 +228,63 @@ flex-shrink: 0;
  html{
     height: 100vh;
     }
+    .flower{
+        background-color: rgba(229, 84, 115, 0.121);
+        height: 400px;
+        display: flex;
+        padding-top: 120px;
+        gap: 5rem;
+        padding-left: 280px;
+
+    }
+    .arival-head{
+        margin-top: 100px;
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .fl1{
+        height: 250px;
+        width: 280px;
+        border-radius: 10px;
+    }
+    .fl2{
+        height: 250px;
+        width: 280px;
+        border-radius: 10px;
+    }
+    .fl3{
+        height: 250px;
+        width: 280px;
+        border-radius: 10px;
+    }
+    .fl4{
+        height: 250px;
+        width: 280px;
+        border-radius: 10px; 
+    }
+    .p1{
+       
+       text-align: center; 
+       margin-top: 20px;
+       font-size: 20px;
+    }
+    .p2{
+       
+        text-align: center; 
+        margin-top: 20px;
+        font-size: 20px;
+     }
+     .p3{
+       
+        text-align: center; 
+        margin-top: 20px;
+        font-size: 20px;
+     }
+     .p4{
+       
+        text-align: center; 
+        margin-top: 20px;
+        font-size: 20px;
+     }
+    
